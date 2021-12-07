@@ -1,4 +1,4 @@
-html body {
+body {
     background-color: rgb(235, 209, 152);
 }
 
@@ -24,18 +24,15 @@ html body {
 a {
     color: burlywood;
     text-decoration: none;
-
 }
 
 .linktext {
     display: block;
     font-size: 25px;
     border: 1px solid rgb(0, 0, 0);
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 10px;
-
-
 }
 
 .linktext:hover>a {
@@ -72,17 +69,11 @@ h1 {
     margin: 50px;
     padding: 50px;
     text-align: center;
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .ssd {
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 h2>a {
@@ -93,53 +84,37 @@ h2>a {
 
 
 .download {
-    display: inline-block;
     background-color: rgb(12, 12, 12);
     text-align: start;
     border: 2px solid Black;
     float: left;
     padding: 10px;
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-
-
+    border-radius: 10px;
 }
 
 .download:hover {
     background-color: hsl(58, 21%, 76%);
     color: black;
     border-radius: 10px;
-
 }
 
 .download:hover a {
     color: black;
-
 }
 
 
 .playonline {
-    display: inline-block;
     background-color: rgb(12, 12, 12);
     text-align: start;
     border: 2px solid Black;
     float: right;
     padding: 10px;
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-
+    border-radius: 10px;
 }
 
 .playonline:hover {
     background-color: hsl(58, 21%, 76%);
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .playonline:hover a {
@@ -149,11 +124,26 @@ h2>a {
 footer {
     background-color: rgb(0, 0, 0);
     text-align: center;
-    color: rgb(230, 233, 74);
+    color: burlywood;
 }
 
 footer>a {
     padding: 30px;
+}
+
+footer img {
+    border-radius: 10px;
+}
+
+footer .logos img {
+    border: 1px solid #fff;
+    height: 100%;
+    max-height: 67px;
+    margin: 0 10px;
+}
+
+.rights p {
+    padding: 15px 0;
 }
 
 
